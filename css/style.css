@@ -1,0 +1,353 @@
+@font-face {
+    font-family: cairo;
+    src: url("../font/cairo.ttf");
+}
+*{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cairo;
+}
+.page1{
+    width: 100%;
+    height: 1000px;
+
+        background:rgba(0, 0, 139, 0.178);
+        background-size: cover;
+        height:850px;
+        width: 100%;
+}
+header{
+    background: url('../img/image1.png') no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+}
+.topheader{
+    height: 60px;
+    background-color: darkblue;
+    position: fixed;
+    width: 100%;
+}
+.titel{
+    float:right;
+    width: 30%;
+    padding-top: 5px;
+    padding-right: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  
+}
+.mainNav{
+    float:left;
+    width: 70%;
+    text-align: left;
+}
+.navitem{
+    color: #fff;
+    margin-left: 30px;
+    display: inline-block;
+    height: 60px;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navitem:hover{
+    color: rgba(3, 4, 70, 0.774);
+    background-color: #fff;
+}
+:target{
+    /* border-right: 1px solid darkblue; */
+}
+.head{
+    width: 100%;
+    color: #fff;
+    padding: 200px 30px;
+}
+.texthead{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+}.textpar{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn1{
+    background-color:darkblue ;
+    color: #fff;
+}
+.btn1:hover{
+    background-color: cornflowerblue;
+}
+.btn2{
+    background-color:cornflowerblue ;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: darkblue ;
+}
+.linkbtn{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+hr{
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+.page2{
+    background-color: #ccc;
+    height: 850px;
+    background: #ccc url('../img/image2.png') center no-repeat fixed;
+    background-size: cover;
+}
+#page2{
+    background: rgba(95, 95, 97, 0.705);
+    background-size: cover;
+    height:850px;
+    width: 100%;
+    /* padding: 40px; */
+}
+.pagetitel{
+    text-align: center;
+    color: darkblue;
+    /* margin-bottom: 22px; */
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+.Services{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.service{
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    width: 27%;
+    height: 150px;
+    margin: 40px;
+}
+.secicon{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.textsec{
+    padding: 15px;
+    /* margin-top:11px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.Services :hover{
+    background-color:cornflowerblue ;
+}
+.page3{
+    padding-right: 10%;
+    background-color: #ccc;
+    height: 1500px;
+    background: #ccc url('../img/image3.png') center no-repeat fixed;
+    background-size: cover;
+}
+.page3titel{
+    text-align: center;
+    color: darkblue;
+    /* margin-bottom: 30px; */
+    padding: 30px;
+    font-size: 30px;
+}
+.page3par{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 22px;
+    font-size: 30px;
+}
+.page4{
+    background: #fff url('../img/image4.png')center no-repeat fixed;
+    background-size: cover;
+}
+.our-works{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+.work{
+    padding: 10px;
+    /* margin: 5px; */
+}
+.work :hover{
+   border: 4px solid darkblue;
+}
+.page4titel{
+    text-align: center;
+    color: darkblue;
+    /* margin-bottom: 22px; */
+    padding: 30px;
+    font-size: 30px;
+}
+.page4par{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 22px;
+    font-size: 30px;
+}
+.our-works2{
+    display: flex;
+    /* width: 100%; */
+    flex-flow: row wrap;
+    padding-right:10% ;
+}
+.work2{
+    border: 1px solid darkblue;
+    width: 15%;
+    height: 200px;
+    margin: 40px;
+    border-radius: 15px;
+   
+}
+.workicon{
+    text-align: center;
+    color: rgb(10, 31, 151);
+    width: 100%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.workname{
+    padding: 15px;
+    /* margin-top:30px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(43, 12, 219);
+}
+.our-works2 :hover{
+    background-color: rgba(36, 98, 230, 0.74);
+    border-radius: 50%;
+}
+.footer{
+    background: #fff url('../img/image5.png') no-repeat fixed;
+    background-size: cover;
+    height: 1050px;
+}
+.page5titel{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 22px; */
+    padding: 30px;
+    font-size: 30px;
+}
+.page5par{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 22px;
+    font-size: 30px;
+}
+#call{
+   float: right;
+   width: 40%;
+   padding: 5% ;
+}
+.call{
+  display: flex;
+  flex-flow: column nowrap;
+  
+}
+.callicon{
+    background-color: darkblue;
+    width: 13%;
+    height: 39px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+   padding: 2%;
+   color: #fff;
+}
+ .contact{
+    background-color: white;
+    width: 95%;
+    height: 40px;
+    /* margin-right: 35px; */
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 4%;
+}
+ .contact :hover{
+    background-color: darkblue;
+    color: white;
+}
+.form{
+    padding: 4.5% ;
+}
+.row{
+    margin: 20px;
+   
+  
+}
+.input{
+    background-color: rgba(10, 10, 175, 0.74);
+    border: none;
+    width: 25%;
+    height: 40px;
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.input1{
+    width: 52%;
+}
+.textarea{ 
+    background-color: rgba(10, 10, 175, 0.74);
+    border: none;
+    width: 52.5%;
+    height: 80px ;
+    height:200px;
+    color: gray;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.input:hover{
+    background-color: rgba(255, 254, 254, 0.664);
+}
+.btn{
+   color: darkblue;
+}
+.btn:hover{
+    background-color: darkblue;
+    color: gray;
+    border: none;
+}
+#copyright{
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+    text-transform: capitalize;
+    font-size: 12px;
+   height:50px ;
+}
