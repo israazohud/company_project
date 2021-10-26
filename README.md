@@ -6,7 +6,7 @@ Code for an Egyptian company its name qeema tak
 # visit site:
 [click here](https://israazohud.github.io/company_project/)
 
-
-https://github.com/israazohud/company_project.git
+# my email:
+[email](israa2002zohud@gmail.com)
 # img:
 ![](img/image5.png)
