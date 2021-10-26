@@ -3,7 +3,8 @@ Code for an Egyptian company its name qeema tak
 # used-skills:exclamation:
 * html
 * css
-# visit site:(https://israazohud.github.io/company_project/)
+# visit site:
+[click here](https://israazohud.github.io/company_project/)
 
 
 https://github.com/israazohud/company_project.git
