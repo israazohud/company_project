@@ -9,4 +9,4 @@ Code for an Egyptian company its name qeema tak
 # my email:
 [email](israa2002zohud@gmail.com)
 # img:
-![](img/company-project.png)
+![](company-project.png)
